@@ -3,16 +3,24 @@ IMP Interpreter A lightweight interpreter for the IMP language — a minimalisti
 
 
 Syntax:
-  Arithmetical:
-  Binary Operators Addition + Conjunction &&
-  Subtraction - Disjunction ||
-  Multiplication * Equality ==
-  Division / Disequality !=
-  Modulus % Less-than <
-  Exponentiation ^ 
+    Arithmetical:
+      Addition + 
+      Subtraction - 
+      Multiplication * 
+      Division / 
+      Modulus % 
+      Exponentiation ^ 
 
   Logical: 
-  Less-or-equal <=
-  Greater-than >
-  Greater-or-equal >=
-  Other operators Assignment := Negation !
+    Conjunction &&
+    Disequality !=
+    Equality ==
+    Disjunction ||
+    Less-than <
+    Less-or-equal <=
+    Greater-than >
+    Greater-or-equal >=
+  
+  Other Operators: 
+    Assignment := 
+    Negation !
